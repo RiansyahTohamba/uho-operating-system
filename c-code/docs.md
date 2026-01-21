@@ -6,8 +6,8 @@ lalu
 gcc --version
 
 <!-- intro -->
-gcc hello.c -o hello
-./hello
+gcc intro.c -o ./out/intro
+./out/intro
 
 <!-- untuk pthread -->
 gcc thread.c -o thread -pthread
